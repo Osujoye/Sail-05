@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #f9f9fb;
+  color: #4a345f;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-bg {
+  background: linear-gradient(135deg, #d865ff, #8f47ff);
+  width: 40%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.phone-mockup {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(to right, #d865ff, #8f47ff);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.profile-pic {
+  width: 40px; 
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  img{
+    max-width: 50px;
+  }
+}
+
+.header-info span {
+  font-size: 12px;
+  color: #e0cfff;
+}
+
+.chat-box {
+  padding: 10px 15px;
+  height: 350px;
+  overflow-y: auto;
+  background-color: #f2f2f2;
+}
+
+.message {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 8px 0;
+  max-width: 75%;
+  font-size: 13px;
+}
+
+.left {
+  align-self: flex-start;
+  background-color: #e5d3ff;
+}
+
+.right {
+  align-self: flex-end;
+  background-color: #fff;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.image-gallery img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.options {
+  margin-top: 15px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a061ff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.input-bar {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+}
+
+.input-bar input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  outline: none;
+}
+
+.input-bar button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.text-content {
+  margin-left: auto;
+  width: 40%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #7e7e90;
+  line-height: 1.6;
+}
