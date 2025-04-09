@@ -1,0 +1,75 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: white;
+}
+.header{
+        display: flex;
+        justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            color: #002F6C;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+ a{
+    text-decoration: none;
+color: gray;
+    font-weight: bold;
+}  
+}
+
+.auth-buttons{
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 14px;
+    transition: all 350s;
+}
+.sign-in {
+    background: none;
+    color: #002F6C;
+}
+.create-account {
+    background-color: #002F6C;
+    color: white;
+    border-radius: 5px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.hero-text h1 {
+    font-size: 36px;
+}
+.hero-text span {
+    color: yellow;
+    font-weight: bold;
+}
+.download-buttons button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+}
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
